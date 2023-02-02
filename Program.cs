@@ -7,7 +7,7 @@
 
 Console.WriteLine("Ввести трехзначное число число");
 
-int num = int.Parse(Console.ReadLine()!);
+int num = Math.Abs(int.Parse(Console.ReadLine()!));
 
 
 int a1 = num % 100;
